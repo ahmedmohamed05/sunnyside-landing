@@ -59,4 +59,9 @@ body {
   font-weight: 600;
   font-style: normal;
 }
+
+.container {
+  max-width: min(800px, 90%);
+  margin-inline: auto;
+}
 /* End Global Style */

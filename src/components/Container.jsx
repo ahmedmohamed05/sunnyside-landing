@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 
-export default function Container({ Children }) {
-  return <div className="container">{Children} </div>;
+export default function Container({ children }) {
+  return <div className="container">{children}</div>;
 }
 
 Container.propTypes = {
-  Children: PropTypes.node,
+  children: PropTypes.node,
 };

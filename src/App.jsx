@@ -1,5 +1,10 @@
 import "./style.css";
+import Container from "./components/Container";
 
 export default function App() {
-  return <></>;
+  return (
+    <Container>
+      <h1> Hello World, !!!</h1>
+    </Container>
+  );
 }
