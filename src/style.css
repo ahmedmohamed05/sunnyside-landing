@@ -1,0 +1,62 @@
+:root {
+  /* Primary Colors */
+  --red: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --graphic-design-text: hsl(167, 40%, 24%);
+  --photography-text: hsl(198, 62%, 26%);
+  --footer-bg: hsl(168, 34%, 41%);
+
+  /* Neutral Colors */
+  --very-dark-blue: hsl(212, 27%, 19%);
+  --dark-blue: hsl(213, 9%, 39%);
+  --dark-grayish-blue: hsl(232, 10%, 55%);
+  --grayish-blue: hsl(210, 10%, 67%);
+  --while: hsl(0, 0%, 100%);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*:has(::before, ::after) {
+  box-sizing: border-box;
+}
+img,
+video,
+picture {
+  max-width: 100%;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+input,
+textarea {
+  outline: none;
+}
+button {
+  user-select: none;
+}
+
+/* Start Util Classes */
+.f-barlow {
+  font-family: "Barlow", system-ui;
+  font-weight: 700;
+}
+
+.f-fraunces-bold {
+  font-family: "Fraunces", system-ui;
+  font-weight: 900;
+}
+/* End Util Classes */
+
+/* Start Global Style */
+body {
+  font-family: "Barlow", system-ui;
+  font-weight: 600;
+  font-style: normal;
+}
+/* End Global Style */
